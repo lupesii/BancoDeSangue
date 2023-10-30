@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url(styles/header.css);
+@import url(styles/telaInicio.css);
+@import url(styles/motivo.css);
+@import url(styles/doacao.css);
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --fontPadrao: 'Noto Sans', sans-serif;
+    --Fundo: #facbcb;
+    --Cinza: #D7C0D0;
+    --Letra: #420203;
+}
+
+body
+{
+    background-color: var(--Fundo);
+    font-family: var(--fontPadrao);
+    color: var(--Letra);
+}
+
+.secao
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10% 0;
+}
+
