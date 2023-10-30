@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+footer{
+    background-color:#420203;
+    padding: 50px 0;
+    height: 100%;
+}
+
+.container-footer{
+
+    max-width: 100%;
+    padding: 0 4%;
+    margin:auto;
+}
+
+.row-footer{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color:white;
+    margin-bottom:20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+
+    list-style:none;
+}
+
+.footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration:none;
+    font-weight: 300;
+    transition:all 0.3s;
+    padding: 35% 0;
+}
+
+.footer-col ul li a:hover{
+    color:blue;
+    padding-left:10px;
+}

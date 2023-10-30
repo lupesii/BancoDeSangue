@@ -11,6 +11,7 @@
 .lista_secao
 {
     font-size: 20px;
+    text-align: center;
 }
 
 .lista_item
@@ -23,6 +24,7 @@
 .secao_div
 {
     width: 50%;
+    text-align: center;
 }
 
 .titulo_secao
@@ -35,4 +37,25 @@
 .secao_imagem
 {
     width: 30%;
+}
+
+@media screen and (max-width: 720px) 
+{
+
+    .secao_motivo
+    {
+        flex-direction: column;
+    }
+
+    .secao_div
+    {
+        width: 90%;
+    }
+
+    
+    .secao_imagem
+    {
+        width: 70%;
+    }
+
 }

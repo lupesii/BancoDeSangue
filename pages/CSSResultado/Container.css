@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+
+body {background-color:#DFA2A2;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+
+}
+
+*{margin:0;
+    padding:0;
+box-sizing: border-box;} 
+
+.container{
+
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+
+}
+
+

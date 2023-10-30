@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+
+/*Tipo de sangue inserido invalido*/
+Invalido{
+    padding:4%;
+    font-family: 'Noto Sans', sans-serif;
+    height:10%;
+    font-size:100px;
+    color:#E0000B;
+    text-align: center;
+    align-items: center;
+
+}
+
+arrumar{
+    padding:4%;
+    font-family: 'Noto Sans', sans-serif;
+    height:10%;
+    font-size:50px;
+    color:#D7C0D0;
+    text-align: center;
+    align-items: center;
+
+}
+/*Ficha Tecnica*/
+ficha{
+
+    margin-top:-10%;
+    align-items: center;
+
+}
+
+/*Imagem de Gota*/
+tipo{
+	padding:5%;
+    flex-direction:row;
+    align-items: center;
+
+}
+
+/*Relatos de Doadores e Receptores de sangue*/
+
+.hist{
+	padding:5%;
+    flex-direction:row;
+    align-items: center;
+}
+
+/*Informações sobre o tipo de Sangue*/
+
+.informações{
+	padding:1%;
+    flex-direction:column;
+    align-items: center;
+    margin-top:-9%;
+    margin-left:13%;
+}
+
+/*Curiosidades sobre tipo de sangue*/
+
+curiosidade{
+    padding:4%;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top:-10%;   
+    height:10%;
+    width:35%;
+    font-size:20px;
+    color:#420203;
+    text-align: left;
+    align-items: center;
+    margin-left:-1%;
+
+}
+

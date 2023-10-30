@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');:root
+
+body {background-color:#DFA2A2;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+
+}
+
+*{margin:0;
+    padding:0;
+box-sizing: border-box;} 
+
+.container{
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.titulo{
+    padding:120px;
+    font-family: 'Noto Sans', sans-serif;
+    height:10px;
+    font-size:70px;
+    color:#420203;
+    text-align: center;
+
+}
+
+.sub{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:17px;
+    height:100px;
+    color:#420203;
+    text-align: center;
+
+}
+
+
+.ABO{
+    padding:20px;
+    height:100px;
+    font-size:50px;
+    color:#420203;
+    text-align:center;
+    border-top: 2px solid #420203;
+    border-left: 2px solid #420203;
+    border-right: 2px solid #420203;
+    border-radius: 2px;
+}
+
+.RH{
+    height:100px;
+    font-size:50px;
+    color:#420203;
+    text-align:center;
+    border: 2px solid #420203;
+    border-top:0px;
+    border-radius: 2px;
+    
+}
+
+.INFO{
+    padding:20px;
+    height:70px;
+    font-size:14px;
+    color:#420203;
+    text-align:center;
+
+
+}
+
+footer { 
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#420203;
+    color:white;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Noto Sans', sans-serif;
+ }
+

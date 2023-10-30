@@ -2,7 +2,6 @@
 @import url(styles/header.css);
 @import url(styles/telaInicio.css);
 @import url(styles/motivo.css);
-@import url(styles/doacao.css);
 
 *
 {
@@ -34,4 +33,25 @@ body
 
     padding: 10% 0;
 }
+
+@media screen and (max-width: 720px) 
+{
+    .secao
+    {
+        flex-direction: column;
+    }
+
+    .doacaosangue
+    {
+        flex-direction: column-reverse;
+    }
+
+    .tipagem_texto
+    {
+        padding: 15px;
+    }
+
+
+}
+
 
